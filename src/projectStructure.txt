@@ -1,0 +1,21 @@
+src/
+├── components/
+│   ├── common/
+│   │   ├── Header.jsx
+│   │   └── FlightCard.jsx
+│   ├── search/
+│   │   ├── SearchForm.jsx
+│   │   └── PopularDestinations.jsx
+│   ├── results/
+│   │   └── FlightResults.jsx
+│   └── layout/
+│       └── Layout.jsx
+├── hooks/
+│   ├── useFlightSearch.js
+│   └── useFlightData.js
+├── data/
+│   └── mockData.js
+├── utils/
+│   └── helpers.js
+├── App.jsx
+└── main.jsx
