@@ -1,6 +1,9 @@
 // App.jsx
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Box, Typography } from '@mui/material';
+
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+
 import { Header } from './components/common/Header';
 import { SearchForm } from './components/search/SearchForm';
 import { PopularDestinations } from './components/search/PopularDestinations';

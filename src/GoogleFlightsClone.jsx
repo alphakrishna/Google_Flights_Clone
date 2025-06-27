@@ -1,50 +1,47 @@
 import { useState } from 'react';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Box,
-  Paper,
-  TextField,
-  Button,
-  Radio,
-  RadioGroup,
-  FormControlLabel,
-  FormControl,
-  Select,
-  MenuItem,
-  Card,
-  CardContent,
-  Chip,
-  IconButton,
-  Divider,
-  Grid,
-  Container,
-  Tab,
-  Tabs,
-  Avatar,
-  Rating,
-  InputAdornment,
-  Menu,
-  ListItemIcon,
-  ListItemText
-} from '@mui/material';
-import {
-  Flight as FlightIcon,
-  SwapHoriz as SwapIcon,
-  Search as SearchIcon,
-  CalendarToday as CalendarIcon,
-  Person as PersonIcon,
-  LocationOn as LocationIcon,
-  Menu as MenuIcon,
-  Apps as AppsIcon,
-  AccountCircle as AccountCircleIcon,
-  KeyboardArrowDown as ArrowDownIcon,
-  Map as MapIcon,
-  Explore as ExploreIcon,
-  Hotel as HotelIcon,
-  Home as HomeIcon
-} from '@mui/icons-material';
+
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Chip from '@mui/material/Chip';
+import IconButton from '@mui/material/IconButton';
+import Divider from '@mui/material/Divider';
+import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Avatar from '@mui/material/Avatar';
+import Rating from '@mui/material/Rating';
+import InputAdornment from '@mui/material/InputAdornment';
+import Menu from '@mui/material/Menu';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+
+import FlightIcon from '@mui/icons-material/Flight';
+import SwapIcon from '@mui/icons-material/SwapHoriz';
+import SearchIcon from '@mui/icons-material/Search';
+import CalendarIcon from '@mui/icons-material/CalendarToday';
+import PersonIcon from '@mui/icons-material/Person';
+import LocationIcon from '@mui/icons-material/LocationOn';
+import MenuIcon from '@mui/icons-material/Menu';
+import AppsIcon from '@mui/icons-material/Apps';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MapIcon from '@mui/icons-material/Map';
+import ExploreIcon from '@mui/icons-material/Explore';
+import HotelIcon from '@mui/icons-material/Hotel';
+import HomeIcon from '@mui/icons-material/Home';
 
 const GoogleFlightsClone = () => {
   const [currentView, setCurrentView] = useState('search');

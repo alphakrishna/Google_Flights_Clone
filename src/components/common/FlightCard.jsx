@@ -1,25 +1,24 @@
 // components/common/FlightCard.jsx
-import {
-  Card,
-  CardContent,
-  Box,
-  Typography,
-  Button,
-  Collapse,
-  IconButton,
-  Divider
-} from '@mui/material';
-import { 
-  ExpandMore as ExpandMoreIcon,
-  Info as InfoIcon,
-  AirlineSeatReclineNormal as SeatIcon,
-  Usb as UsbIcon,
-  Tv as StreamIcon,
-  Co2 as EmissionsIcon,
-  Warning as WarningIcon
-} from '@mui/icons-material';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Collapse from '@mui/material/Collapse';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import InfoIcon from '@mui/icons-material/Info';
+import SeatIcon from '@mui/icons-material/AirlineSeatReclineNormal';
+import UsbIcon from '@mui/icons-material/Usb';
+import StreamIcon from '@mui/icons-material/Tv';
+import EmissionsIcon from '@mui/icons-material/Co2';
+import WarningIcon from '@mui/icons-material/Warning';
+
 import { useState } from 'react';
 import { formatINR } from '../../utils/helpers';
+
 
 export const FlightCard = ({ flight }) => {
   const [expanded, setExpanded] = useState(false);

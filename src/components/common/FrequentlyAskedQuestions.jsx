@@ -1,14 +1,15 @@
 // FrequentlyAskedQuestions.jsx
 import React, { useState } from 'react';
-import {
-  Box,
-  Typography,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  Container,
-} from '@mui/material';
+
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Container from '@mui/material/Container';
+
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 
 const faqData = [
   {

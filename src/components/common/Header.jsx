@@ -1,32 +1,29 @@
 // components/common/Header.jsx
 import { useState } from 'react';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Box,
-  IconButton,
-  Menu,
-  MenuItem,
-  ListItemIcon,
-  ListItemText,
-} from '@mui/material';
-import {
-  Menu as MenuIcon,
-  Apps as AppsIcon,
-  AccountCircle as AccountCircleIcon,
-  Search as SearchIcon,
-  Map as MapIcon,
-  Home as HomeIcon
-} from '@mui/icons-material';
+
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import IconButton from '@mui/material/IconButton';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+
+import MenuIcon from '@mui/icons-material/Menu';
+import AppsIcon from '@mui/icons-material/Apps';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import SearchIcon from '@mui/icons-material/Search';
+import MapIcon from '@mui/icons-material/Map';
 import LuggageIcon from '@mui/icons-material/Luggage';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import FlightIcon from '@mui/icons-material/Flight';
 import HotelIcon from '@mui/icons-material/Hotel';
 import HouseIcon from '@mui/icons-material/House';
-import { Button } from '@mui/material';
-import { Home } from '@mui/icons-material';
-import { styled } from '@mui/material/styles';
+
 
 const ButtonStyledMain = styled(Button)(({ theme }) => ({
   color: 'black',

@@ -1,17 +1,14 @@
 // components/common/Footer.jsx
-import { 
-  Box, 
-  Typography, 
-  Button, 
-  Divider,
-  Link
-} from '@mui/material';
-import {
-  Language as LanguageIcon,
-  LocationOn as LocationIcon,
-  CurrencyRupee as CurrencyIcon,
-  KeyboardArrowDown as ArrowDownIcon
-} from '@mui/icons-material';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
+
+import LanguageIcon from '@mui/icons-material/Language';
+import LocationIcon from '@mui/icons-material/LocationOn';
+import CurrencyIcon from '@mui/icons-material/CurrencyRupee';
+import ArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export const Footer = () => {
   return (

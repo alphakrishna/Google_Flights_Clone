@@ -1,40 +1,34 @@
 // components/search/SearchForm.jsx
 import { useState } from 'react';
-import {
-  Box,
-  Card,
-  CardContent,
-  TextField,
-  Button,
-  Select,
-  MenuItem,
-  FormControl,
-  IconButton,
-  Grid,
-  FormGroup,
-  InputAdornment,
-  Chip,
-  Typography,
-  Divider
-} from '@mui/material';
-import {
-  CalendarToday as CalendarIcon,
-  FlightTakeoff,
-  FlightLand,
-  SwapHoriz,
-  PersonOutline,
-  ExpandMore,
-  Close,
-  Add
-} from '@mui/icons-material';
+
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import IconButton from '@mui/material/IconButton';
+import InputAdornment from '@mui/material/InputAdornment';
+import Typography from '@mui/material/Typography';
 import Autocomplete from '@mui/material/Autocomplete';
-import dayjs from 'dayjs';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
+import FlightTakeoff from '@mui/icons-material/FlightTakeoff';
+import FlightLand from '@mui/icons-material/FlightLand';
+import SwapHoriz from '@mui/icons-material/SwapHoriz';
+import PersonOutline from '@mui/icons-material/PersonOutline';
+import ExpandMore from '@mui/icons-material/ExpandMore';
+import Close from '@mui/icons-material/Close';
+import Add from '@mui/icons-material/Add';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import MultipleStopIcon from '@mui/icons-material/MultipleStop';
 import SearchIcon from '@mui/icons-material/Search';
+
+import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
 
 export const SearchForm = ({ searchData, searchActions }) => {
   const {

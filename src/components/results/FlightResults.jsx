@@ -1,22 +1,20 @@
 // components/results/FlightResults.jsx
-import {
-  Box,
-  Typography,
-  Button,
-  Card,
-  CardContent,
-  Chip,
-  Grid,
-  IconButton
-} from '@mui/material';
-import {
-  ArrowBack as ArrowBackIcon,
-  Sort as SortIcon,
-  FilterList as FilterIcon,
-  Schedule as ScheduleIcon,
-  AttachMoney as PriceIcon,
-  Star as StarIcon
-} from '@mui/icons-material';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Chip from '@mui/material/Chip';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import SortIcon from '@mui/icons-material/Sort';
+import FilterIcon from '@mui/icons-material/FilterList';
+import ScheduleIcon from '@mui/icons-material/Schedule';
+import PriceIcon from '@mui/icons-material/AttachMoney';
+import StarIcon from '@mui/icons-material/Star';
+
 import { FlightCard } from '../common/FlightCard';
 import { useFlightData } from '../../hooks/useFlightData';
 
